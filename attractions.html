@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions - Siquijor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Siquijor Island
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="attractions.html">Attractions</a></li>
+                    <li><a class="dropdown-item" href="activities.html">Activities</a></li>
+                    <li><a class="dropdown-item" href="accommodation.html">Accommodation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Top Attractions in Siquijor</h2>
+
+        <div id="attractionsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/7.jpg" class="d-block w-100" alt="Cambugahay Falls">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cambugahay Falls</h5>
+                        <p>A stunning three-tiered waterfall perfect for swimming and relaxing.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/8.jpg" class="d-block w-100" alt="Paliton Beach">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Paliton Beach</h5>
+                        <p>White sand, crystal-clear waters, and breathtaking sunsets await.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/9.jpg" class="d-block w-100" alt="Cantabon Cave">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cantabon Cave</h5>
+                        <p>A breathtaking underground cave with stunning rock formations and crystal-clear pools.</p>
+                    </div>
+                </div>                
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#attractionsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#attractionsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Siquijor Tourism | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

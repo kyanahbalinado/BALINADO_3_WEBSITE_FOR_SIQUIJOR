@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquire Now - Siquijor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Siquijor Island</button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="attractions.html">Attractions</a></li>
+                    <li><a class="dropdown-item" href="activities.html">Activities</a></li>
+                    <li><a class="dropdown-item" href="accommodation.html">Accommodation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Inquire About Your Stay</h2>
+        <p class="text-center">Fill out the form below, and we’ll get back to you with availability and pricing.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your name" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="accommodation" class="form-label">Select Accommodation</label>
+                        <select class="form-select" id="accommodation" required>
+                            <option value="" disabled selected>Choose an option</option>
+                            <option value="Coco Grove Beach Resort">Coco Grove Beach Resort</option>
+                            <option value="Tori's Backpackers Paradise">Tori's Backpackers Paradise</option>
+                            <option value="Replica Manor">Replica Manor</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-dark w-100">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Siquijor Tourism | All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
